@@ -3,7 +3,7 @@ from telebot import types
 from telebot import util
 from db import *
 
-bot = telebot.TeleBot('Your token')
+bot = telebot.TeleBot('Your token') # Enter your telegram bot token here
 
 connection1 = create_connection("notes.sqlite")
 connection2 = create_connection("nums.sqlite")
